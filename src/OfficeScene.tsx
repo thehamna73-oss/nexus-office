@@ -338,7 +338,7 @@ function WalkController() {
       cameraTarget.current.set(0, 40, -3)
       lookTarget.current.set(0, 0, -3)
     } else {
-      cameraTarget.current.set(visitor.x + 8.5, 18, visitor.z + 12)
+      cameraTarget.current.set(visitor.x + 6, 14, visitor.z + 9)
       lookTarget.current.set(visitor.x, 0.5, visitor.z)
     }
     camera.position.lerp(cameraTarget.current, 1 - Math.exp(-delta * (state.stage === 'finale' ? 1.2 : 2.1)))
