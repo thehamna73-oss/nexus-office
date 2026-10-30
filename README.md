@@ -2,6 +2,10 @@
 
 A procedural, low-poly office walkthrough built with Vite, React, TypeScript, and React Three Fiber. The scene uses generated geometry only; no external 3D assets are required.
 
+## Live site
+
+The site is deployed to [GitHub Pages](https://thehamna73-oss.github.io/nexus-office/) whenever a commit is pushed to `main`.
+
 ## Run locally
 
 ```sh
